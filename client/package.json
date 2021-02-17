@@ -1,0 +1,27 @@
+{
+    "name": "react-search-sample",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "webpack-dev-server --open"
+    },
+    "dependencies": {
+        "formik": "^1.5.2",
+        "history": "^4.9.0",
+        "react": "^16.8.6",
+        "react-dom": "^16.8.6",
+        "react-router-dom": "^5.2.0",
+        "rxjs": "^6.3.3",
+        "yup": "^0.27.0"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.4.3",
+        "@babel/preset-env": "^7.4.3",
+        "@babel/preset-react": "^7.0.0",
+        "babel-loader": "^8.0.5",
+        "html-webpack-plugin": "^3.2.0",
+        "path": "^0.12.7",
+        "webpack": "^4.29.6",
+        "webpack-cli": "^3.3.12",
+        "webpack-dev-server": "^3.11.2"
+    }
+}

@@ -1,0 +1,14 @@
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\appsettings.Development.json
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\appsettings.json
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\WebApi.deps.json
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.json
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\WebApi.runtimeconfig.dev.json
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\WebApi.dll
+C:\VSProjects\SearchSample\server\bin\Debug\netcoreapp2.0\WebApi.pdb
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.csprojAssemblyReference.cache
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfoInputs.cache
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.AssemblyInfo.cs
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.csproj.CoreCompileInputs.cache
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.dll
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.pdb
+C:\VSProjects\SearchSample\server\obj\Debug\netcoreapp2.0\WebApi.genruntimeconfig.cache
