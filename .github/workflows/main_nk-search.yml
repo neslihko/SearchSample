@@ -53,5 +53,5 @@ jobs:
         with:
           app-name: 'nk-Search'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_236F4229508E409B9C11B2B72FC47FB4 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_8DF1E496620C46CEA07B2915EAC96695 }}
           package: .
