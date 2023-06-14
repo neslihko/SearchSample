@@ -25,10 +25,7 @@ steps:
 - task: DotNetCoreInstaller@1
   inputs:
     version: '3.x'
-- task: NuGetCommand@2
-  inputs:
-    command: 'restore'
-    restoreSolution: 
+ 
     
 - task: DotNetCoreCLI@2
   inputs:
