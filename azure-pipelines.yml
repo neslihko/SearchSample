@@ -29,8 +29,5 @@ steps:
   displayName: 'Authenticate Azure DevOps NuGet feed'
   
 
-- task: DotNetCoreCLI@0
-  inputs:
-    command: 'build'
-     projects: '**/*.csproj    
+ 
  
