@@ -20,7 +20,10 @@ steps:
     npm run build
   displayName: 'npm install and build'
 
-- task: DotNetCoreCLI@2
+# Install .NET Core SDK
+- task: DotNetCoreInstaller@1
   inputs:
-    command: 'build'
-    projects: '**/*.csproj'
+    version: '2.2.x'
+- task: DotNetCoreInstaller@1
+  inputs:
+    version: '3.0.x'
