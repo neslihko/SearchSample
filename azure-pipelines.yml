@@ -27,6 +27,12 @@ steps:
     version: '3.x'
 - task: NuGetAuthenticate@1
   displayName: 'Authenticate Azure DevOps NuGet feed'
+  
+
+- task: DotNetCoreCLI@0
+  inputs:
+    command: 'build'
+    
 - task: DotNetCoreCLI@1
   displayName: 'dotnet publish'
   inputs:
