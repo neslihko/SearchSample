@@ -28,7 +28,11 @@ steps:
 - task: NuGetCommand@2
   inputs:
     command: 'restore'
-    restoreSolution: '**/*.csproj'
+    restoreSolution: 
+    - task: DotNetCoreCLI@2
+  inputs:
+    command: 'build'
+    projects: '**/*.csproj'
     feedsToUse: 'select'
  
  
