@@ -25,7 +25,18 @@ steps:
 - task: DotNetCoreInstaller@1
   inputs:
     version: '2.2.x'
+- task: NuGetAuthenticate@1
+  displayName: 'Authenticate Azure DevOps NuGet feed'
+
+# Restore project
 - task: DotNetCoreCLI@2
   inputs:
-    command: 'build'
-    arguments: '**/*.csproj'
+    command: 'custom'
+    custom: 'restore'
+
+# Build project
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'custom'
+    custom: 'build'
+    arguments: '--no-restore'
